@@ -10,8 +10,9 @@ const forecast = (longitude,latitude, callback) => {
             callback('Unable to find location')
         }
         else {
-            callback(undefined, 'Current temperature is ' + body.current.temperature + '. But it feels like ' + body.current.feelslike)
+            callback(undefined, 'Current temperature is ' + body.current.temperature + '. But it feels like ' + body.current.feelslike + ' degrees. Wind speed is ' + body.current.wind_speed +' m/S')
         }
     }) 
 } 
+
 module.exports= forecast
