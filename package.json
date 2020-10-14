@@ -13,7 +13,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.1.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "ssh2": "^0.8.9"
   },
   "devDependencies": {
     "nodemon": "^1.2.0"
